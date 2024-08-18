@@ -4,7 +4,7 @@ const CardComponent = () => {
     return (
         <div className='w-auto h-full shrink-0 bg-white shadow-[0px_15px_30px_0px_#0051AB26] rounded-lg'>
             {/* first block element */}
-            <div className='space-y-2 p-10 flex flex-col w-[331px] '>
+            <div className='space-y-2 p-10 flex flex-col w-[331px] md:w-auto '>
                 <h2 className=' text-[#2AB3B1] text-lg md:text-2xl font-bold leading-normal tracking-[-0.3px]'>
                     Join our community
                 </h2>
