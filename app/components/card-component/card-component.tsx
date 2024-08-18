@@ -33,7 +33,7 @@ const CardComponent = () => {
                 <div className='bg-[#4ABFBC] px-10 py-6 md:p-10  md:rounded-br-lg'>
                     <div className='space-y-5'>
                         <p className='font-bold text-xl'>
-                            why us
+                            Why us
                         </p>
                         <div className='md:w-[238px]  text-sm font-light  tracking-[0.175px] opacity-75'>
                             <ul className="space-y-1 text-sm font-light opacity-90">
