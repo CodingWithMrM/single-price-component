@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Karla } from "next/font/google";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/react';
+
 
 const karla = Karla({ subsets: ["latin"] });
 
@@ -16,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={karla.className}>{children}</body>
+      <body className={karla.className}>{children}
+        <Analytics />
+
+      </body>
     </html>
   );
 }
